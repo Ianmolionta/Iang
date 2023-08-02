@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/galery.css">
+    <link rel="stylesheet" href="style/event.css">
+</head>
+
+<body>
+    <!--Navbar start-->
+    <span class="full-navbar">
+        <span class="title">
+            <span class="wrapper">
+                <a href="#">
+                    <img src="assets/kedai.png" class="logo" alt="kedai">
+                </a>
+                <img class="menu-btn" src="assets/burger-menu.svg" alt="Burger menu" title="burger menu"
+                    onclick="togglemenu(this)" />
+                <menu class="menu-nav" id="tombol">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#event">Event</a>
+                    <a href="#galery">Galery</a>
+                    <a href="#contact">Contact</a>
+                </menu>
+            </span>
+        </span>
+    </span>
+    <!--navbar end-->
+    <div id="home" class="home">
+    </div>
+    <div id="about" class="about">
+    </div>
+    <!-- event start -->
+    <div id="event" class="event">
+        <!-- <input type="radio" name="a" id="cr-1" checked>
+        <label for="cr-1" style="--hue: 32"></label>
+        <div class="ci" style="--z: 4">
+            <h2 class="ch" style="--h: 32; --s: 80%; --l: 90">terbaru
+            </h2>
+            <img src="assets/kedai.png" alt="terbaru">
+        </div>
+        <input type="radio" name="a" id="cr-2" checked>
+        <label for="cr-2" style="--hue: 82"></label>
+        <div class="ci" style="--z: 3">
+            <h2 class="ch" style="--h: 82; --s: 80%; --l: 90">terbaru
+            </h2>
+            <img src="assets/IMG_9404.jpg" alt="terbaru">
+        </div> -->
+    </div>
+    <!-- event end -->
+    <!-- galery start -->
+    <div id="galery" class="galery">
+        <div class="card">
+            <div class="content">
+                <img src="assets/IMG_9404.jpg" alt="image">
+            </div>
+            <div class="judul">
+                <h1>Iang</h1>
+            </div>
+            <p class="text">ketua</p>
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="assets/IMG_9404.jpg" alt="image">
+            </div>
+            <div class="judul">
+                <h1>Iang</h1>
+            </div>
+            <p class="text">ketua</p>
+        </div>
+    </div>
+    <!-- galery end -->
+    <!-- contact start -->
+    <footer id="contact" class="footer">
+        <div class="footer-wrapper">
+            <section class="footer-top">
+                <a href="#" title="logo">
+                    <img src="assets/kedai.png" class="logo" alt="Laplace">
+                </a>
+                <span class="sosial-link">
+                    <a href="#" title="instagram">
+                        <img src="assets/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="#" title="facebook">
+                        <img src="assets/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#" title="wa">
+                        <img src="assets/whatsapp-svgrepo-com.svg" alt="wa">
+                    </a>
+                </span>
+            </section>
+            <section class="footer-colums">
+                <section>
+                    <ul>
+                        <h3>solution</h3>
+                        <li>
+                            <a href="#" title="solution 1">solution 1</a>
+                        </li>
+                        <li>
+                            <a href="#" title="solution 2">solution 2</a>
+                        </li>
+                        <li>
+                            <a href="#" title="solution 3">solution 3</a>
+                        </li>
+                        <li>
+                            <a href="#" title="solution 4">solution 4</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <h3>product</h3>
+                        <li>
+                            <a href="#" title="api">api</a>
+                        </li>
+                        <li>
+                            <a href="#" title="pricing">pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" title="dokumentasi">dokumentasi</a>
+                        </li>
+                        <li>
+                            <a href="#" title="rilis">rilis</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <h3>Navigation</h3>
+                        <li>
+                            <a href="#home" title="Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" title="About">About</a>
+                        </li>
+                        <li>
+                            <a href="#event" title="Event">Event</a>
+                        </li>
+                        <li>
+                            <a href="#galery" title="Galery">Galery</a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section class="footer-botom">
+                <small>Iang <span id="year"></span>, all right reserved</small>
+                <span class="footer-botom-links">
+                    <a href="#" title="terms and service">terms and service</a>
+                    <a href="#" title="privacy policy">privacy policy</a>
+                </span>
+            </section>
+        </div>
+    </footer>
+    <!-- contact end -->
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
