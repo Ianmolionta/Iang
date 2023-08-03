@@ -68,15 +68,7 @@
 .card:hover .judul{
     bottom: 0;
 }
-.judul{
-    display: flex;
-    justify-content: center;
-    font-size: 1.5em;
-    margin-bottom: 5px;
-    font-weight: 700;
-    /* background-color: transparent; */
-}
-.detail .text{
+.judul .text{
     color: #fff;
     opacity: .8;
     line-height: 1.5;
