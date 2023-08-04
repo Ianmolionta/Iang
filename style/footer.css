@@ -9,6 +9,7 @@ footer {
     /* display: flex; */
     justify-content: center;
     /* font-family: 'red hat display', sans-serif; */
+    /* background: white; */
 }
 
 .footer-wrapper {
@@ -42,6 +43,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 12px;
+    /* background-color: black; */
 }
 
 .sosial-link img {
@@ -61,6 +63,7 @@ footer {
     padding: 8px 10px 8px 10px;
     justify-content: space-between;
     border-bottom: 1px solid #999999;
+    /* background: white; */
 
 }
 
@@ -71,6 +74,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
+    /* background: white; */
 }
 
 .footer-colums h3 {
@@ -83,6 +87,7 @@ footer {
 .footer-colums>section {
     min-width: 180px;
     padding-left: 15px;
+    /* background-color: black; */
 }
 
 .footer-botom {
@@ -96,6 +101,7 @@ footer {
     gap: 8px;
     padding: 16px 0px;
     flex-wrap: wrap;
+    /* background: white; */
 
 }
 
@@ -105,6 +111,7 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
+    /* background-color: black; */
 }
 
 @media (max-width: 800px) {
@@ -122,6 +129,7 @@ footer {
 .footer-botom-links>a {
     color: white;
     text-decoration: none;
+    /* background-color: black; */
 }
 .footer-botom-links>a:hover{
     text-decoration: underline;
@@ -130,4 +138,5 @@ footer {
     font-size: 16px;
     margin: 0 4px;
     color: white;
+    /* background-color: black; */
 }

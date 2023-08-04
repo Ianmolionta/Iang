@@ -8,6 +8,7 @@
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
+    /* background: white; */
 }
 .card{
     position: relative;
@@ -64,6 +65,7 @@
     transition: .3s;
     color: #fff;
     z-index: 2;
+    text-align: center;
 }
 .card:hover .judul{
     bottom: 0;
@@ -78,4 +80,5 @@
     line-height: 1.5;
     margin-bottom: 1em;
     background-color: transparent;
+    padding-top: 10px;
 }
