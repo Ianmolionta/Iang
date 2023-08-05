@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #000000;
     font-family: 'red hat display', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -20,7 +20,7 @@ a {
 
 .full-navbar {
     display: block;
-    height: 100vh;
+    height: 20vh;
     width: 100vw;
     opacity: 1;
     z-index: 1;
