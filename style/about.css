@@ -19,11 +19,17 @@
     padding: 15px;
     align-items: center;
 }
+/* .text-about{
+    /* padding-right: ; 
+} */
 
 @media (max-width: 600px) {
     .about-content {
         display: block;
         flex-direction: column;
         margin: 0;
+    }
+    .about{
+        padding: 10px;
     }
 }
