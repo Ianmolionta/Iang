@@ -1,8 +1,8 @@
 .event {
   margin: 0;
   padding: 0;
-  /* height: 200px;
-  position: relative; */
+  /* height: 10px; */
+  position: relative; 
 }
 .carousel-item{
     transition: transform 1s ease;

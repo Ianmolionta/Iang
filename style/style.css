@@ -20,7 +20,7 @@ a {
 
 .full-navbar {
     display: block;
-    height: 20vh;
+    /* height: 20vh; */
     width: 100vw;
     opacity: 1;
     z-index: 1;

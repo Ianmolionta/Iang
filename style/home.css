@@ -1,11 +1,11 @@
 .home{
-    position: relative;
-    background: #1a1a1a;
+    /* position: relative; */
+    background: #0e0e0e;
     color: white;
-    height: 300px;
-}
-.home-wrapper{
-  background: #1a1a1a;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .button-about {
     text-decoration: none;
