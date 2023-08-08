@@ -5,7 +5,7 @@ footer {
     bottom: 0px;
     color: rgb(0, 0, 0);
     min-width: 300px;
-    width: 100vw;
+    /* width: 100vw; */
     /* display: flex; */
     justify-content: center;
     /* font-family: 'red hat display', sans-serif; */
