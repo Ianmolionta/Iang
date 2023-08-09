@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background: transparent;
     font-family: 'red hat display', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;

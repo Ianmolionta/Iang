@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    height: 80vh;
+    height: 100vh;
     background: rgb(255, 255, 255);
     /* margin: 50px 0px; */
 }
@@ -20,8 +20,9 @@
     padding: 20px;
     align-items: center;
 }
-.text-about{
-    background: transparent;
+.about-content p{
+    text-align: justify;
+    display: flex;
 }
 
 @media (max-width: 700px) {
