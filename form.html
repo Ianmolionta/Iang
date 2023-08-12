@@ -4,32 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style/form.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-        <form class="form">
-            <p class="heading fs-1">Register</p>
-            <label class="label">Nama</label>
-            <input class="input" type="text" placeholder="Nama">
-            <label class="label">Tanggal Lahir</label>
-            <input class="input" type="date">
-            <label class="label">Agama</label>
-            <input class="input" type="text" placeholder="Agama">
-            <label class="label">Email</label>
-            <input class="input" type="email" placeholder="Email">
-            <label class="label">Jurusan</label>
-            <input class="input" type="text" placeholder="Jurusan">
-            <label class="label">Angkatan</label>
-            <input class="input" type="number" placeholder="Angkatan">
-            <label class="label">No hp</label>
-            <input class="input" type="number" placeholder="No Hp"> 
-            <label class="label">Alamat</label>
-            <input class="input" type="text" placeholder="Alamat"> 
-            <button class="btn">Submit</button>
-        </form>
+      <form class="form">
+        <p class="heading fs-1">Form Pendaftaran</p>
+        <label class="label">Nama Lengkap</label>
+        <input class="input" type="text" placeholder="Nama Lengkap" />
+        <label class="label">Tanggal Lahir</label>
+        <input class="input" type="date" />
+        <label class="label">Agama</label>
+        <select class="Agama" name="" id="">
+          <option value="">Agama</option>
+          <option value="">Islam</option>
+          <option value="">Kristen</option>
+          <option value="">Hindu</option>
+          <option value="">Budha</option>
+          <option value="">Atheis</option>
+        </select>
+        <label class="label">Email</label>
+        <input class="input" type="email" placeholder="Email" />
+        <label class="label">No hp</label>
+        <input class="input" type="number" placeholder="No Hp" />
+        <label class="label">Alamat</label>
+        <input class="input" type="text" placeholder="Alamat" />
+        <div class="checkbox">
+          <label class="">Semester</label>
+          <div class="checkbox">
+              <input class="" type="checkbox" />Semester 1 
+              <input class="" type="checkbox" />semester 2      
+        </div>  
+        </div>
+        <div >
+          <label class="">Jurusan</label>
+          <div class="checkbox">
+              <input class="" type="checkbox" placeholder="Jurusan" />Teknik Informatika
+            <input class="" type="checkbox" placeholder="Jurusan" />Sistem Informasi
+          </div>
+        </div>
+        <button class="btn">Submit</button>
+      </form>
     </div>
   </body>
 </html>

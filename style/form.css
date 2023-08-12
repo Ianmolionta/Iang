@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background: #171717;
 }
 .form {
     width: 500px;
@@ -71,4 +71,28 @@
     transition: .2s;
     transform: translateX(0em) translateY(0em);
     box-shadow: none;
+  }
+  .Agama{
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    outline: none;
+    padding: 0.7em;
+    transition: .4s ease-in-out;
+  }
+  .Agama:hover{
+    box-shadow: 6px 6px 0px #969696,
+    -3px -3px 10px #ffffff;
+  }
+  .Agama:focus{
+    background: #ffffff;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  }
+  option{
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    outline: none;
+    padding: 0.7em;
+    transition: .4s ease-in-out;
   }
