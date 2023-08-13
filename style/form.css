@@ -1,8 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+.wrap{
+  background-image: url();
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #171717;
+    background: transparent;
 }
 .form {
     width: 500px;
