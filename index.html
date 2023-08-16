@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="font-awesome/css/all.min.css" />
@@ -46,17 +48,17 @@
     </span>
     <!--navbar end-->
     <!-- home start -->
-    <section id="home" class="home" style="background: url('./assets/bg.jpg'); background-size: cover; background-position: center;">
-      <div class="home-wrapper px-4" style="z-index: 2;">
+    <section id="home" class="home" style="background: url('./assets/bg.jpg'); background-size: cover; background-position: center; z-index: 1;">
+      <div class="home-wrapper px-4">
         <p class="h3 text-center fs-2 p-1" style="margin: 0;">Pogramming, engineering, & Networking Adhi Guna</p>
         <p class="display-1 pb-4 text-center fw-semibold" style=" margin: 0">PENA</p>
-        <div class="d-flex justify-content-center" style="">
+        <div class="d-flex justify-content-center">
           <a href="#about">
             <button class="button-about">about us</button>
           </a>
         </div>
       </div>
-      <div class="home-shadow"></div>
+      <!-- <div class="home-shadow"></div> -->
     </section>
     <!-- home end -->
     <!-- about start -->
@@ -88,57 +90,67 @@
             </p>
             <div class="d-flex justify-content-center align-items-center gap-4">
               <a href="#" class="btn btn-primary">visit site</a>
-              <a href="#" class="btn btn-primary">more</a>
+              <a data-bs-toggle="modal" data-bs-target="#newsModal" class="btn btn-primary">read more</a>
             </div>
           </div>
         </div>
       </swiper-slide>
+
       <swiper-slide>
         <div class="" style="width: 18rem;">
-          <img src="assets/bg.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+          <img src="https://d1hjkbq40fs2x4.cloudfront.net/2017-04-06/files/live-view-shooting_1512.jpg" class="card-img-top mt-3" alt="..." style="height: 200px; object-fit: cover;">
           <div class="card-body p-2">
             <h5 class="card-title fw-semibold">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">
+              Some quick example text to 
+            </p>
             <div class="d-flex justify-content-center align-items-center gap-4">
               <a href="#" class="btn btn-primary">visit site</a>
-              <a href="#" class="btn btn-primary">more</a>
+              <a data-bs-toggle="modal" data-bs-target="#newsModal" class="btn btn-primary">read more</a>
             </div>
           </div>
         </div>
       </swiper-slide>
+
       <swiper-slide>
         <div class="" style="width: 18rem;">
-          <img src="assets/bg.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+          <img src="https://www.westend61.de/images/0001392297pw/scenic-view-of-landscape-against-sky-during-sunset-EYF05064.jpg" class="card-img-top mt-3" alt="..." style="height: 200px; object-fit: cover;">
           <div class="card-body p-2">
             <h5 class="card-title fw-semibold">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
             <div class="d-flex justify-content-center align-items-center gap-4">
               <a href="#" class="btn btn-primary">visit site</a>
-              <a href="#" class="btn btn-primary">more</a>
+              <a data-bs-toggle="modal" data-bs-target="#newsModal" class="btn btn-primary">read more</a>
             </div>
           </div>
         </div>
       </swiper-slide>
+
       <swiper-slide>
         <div class="" style="width: 18rem;">
-          <img src="assets/bg.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover; width: 100;">
+          <img src="https://www.westend61.de/images/0001392297pw/scenic-view-of-landscape-against-sky-during-sunset-EYF05064.jpg" class="card-img-top mt-3" alt="..." style="height: 200px; object-fit: cover;">
           <div class="card-body p-2">
             <h5 class="card-title fw-semibold">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
             <div class="d-flex justify-content-center align-items-center gap-4">
               <a href="#" class="btn btn-primary">visit site</a>
-              <a href="#" class="btn btn-primary">more</a>
+              <a data-bs-toggle="modal" data-bs-target="#newsModal" class="btn btn-primary">read more</a>
             </div>
           </div>
         </div>
       </swiper-slide>
+     
     </swiper-container>
     </div>
     <!-- event end -->
     <!-- galery start -->
     <div id="galery" class="galery-wrap">
       <h1 class="text-center text-dark p-4" style="background: rgb(240, 240, 240); margin: 0">Pengurus inti</h1>
-      <div class="galery">
+      <div class="galery pb-5">
         <div class="card">
           <div class="content">
             <img src="assets/IMG_9404.jpg" alt="image" />
@@ -259,6 +271,29 @@
         </section>
       </div>
     </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="newsModal"  tabindex="-1" aria-labelledby="" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h1 class="modal-title fs-5">Modal title</h1>
+              <small>
+                <i class="fa-solid fa-calendar-days me-2"></i> 23 Juli 2023
+              </small>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="text-indent: 24px; text-align: justify;">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto commodi incidunt facilis expedita earum officia. Dolorum repudiandae ullam debitis a tempora enim quaerat, dignissimos unde repellat pariatur itaque blanditiis corporis modi distinctio impedit? Aperiam officia animi molestias? Amet quae quaerat, enim excepturi aliquid inventore fugit optio mollitia fuga sed ad tenetur corporis incidunt, obcaecati minima! Libero quas velit dolorem dolore eaque debitis aliquid! Explicabo eius aperiam enim tempora incidunt atque vel ipsa deserunt repellat id, nihil libero eum corporis nostrum, alias cupiditate est. Eligendi ducimus officiis placeat vitae cupiditate odio, sapiente praesentium sunt veniam esse alias tempore voluptates reiciendis soluta.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="#" type="button" class="btn btn-primary">Visit site</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- contact end -->
     <script>
       document.getElementById("year").innerHTML = new Date().getFullYear();
@@ -273,5 +308,21 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+
+    <script>
+      const limitText = (className, characterLimit) => {
+        const textElements = document.getElementsByClassName(className);
+        for (var i = 0; i < textElements.length; i++) {
+          var textElement = textElements[i];
+          var textContent = textElement.textContent;
+          if (textContent.length > characterLimit) {
+            var truncatedText = textContent.slice(0, characterLimit) + "...";
+            textElement.textContent = truncatedText;
+          }
+        }
+      }
+      
+      limitText("card-text", 75);
+    </script>
   </body>
 </html>
