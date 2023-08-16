@@ -11,8 +11,9 @@ swiper-slide {
   background: #fff;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 500px;
+  align-items: start;
+  min-height: 400px;
+  max-height: fit-content;
   width: 400px;
   border-radius: 8px;
   padding: 10px;
