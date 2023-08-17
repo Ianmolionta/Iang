@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
-body{
+.form-wrap{
   background: url(/assets/bg.jpg);
   height: 190vh;
   display: flex;
