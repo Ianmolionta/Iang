@@ -4,7 +4,7 @@
 }
 body{
   background: url(/assets/bg.jpg);
-  height: 200vh;
+  height: 190vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,4 @@ body{
 }
 .form{
   padding: 20px;
-}
-td{
-  border: none;
 }

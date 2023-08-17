@@ -67,7 +67,7 @@ footer {
     align-items: center;
     padding: 8px 10px 8px 10px;
     justify-content: space-between;
-    border-bottom: 1px solid #999999;
+    /* border-bottom: 1px solid #999999; */
     background: rgb(0, 0, 0);
 
 }
