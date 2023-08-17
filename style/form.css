@@ -3,7 +3,7 @@
   padding: 0px;
 }
 .form-wrap{
-  background: url(/assets/bg.jpg);
+  /* background: url(/assets/bg.jpg); */
   height: 190vh;
   display: flex;
   justify-content: center;
