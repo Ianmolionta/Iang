@@ -119,6 +119,11 @@ footer {
     .footer-botom-links {
         margin: 0 auto;
     }
+    .footer-colums {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .footer-botom-links>a {
     color: white;
@@ -156,6 +161,7 @@ footer {
 .des{
     width: 200px;
 }
-.logo-footer{
-    max-height: fit-content;
+.footer-logo{
+    height: 100px;
+    width: 80px;
 }
