@@ -47,13 +47,13 @@ footer {
     background-color: black;
 }
 
-.sosial-link img {
+/* .sosial-link i {
     width: 24px;
     height: 24px;
     background-color: black;
-}
+} */
 
-.sosial-link img:hover {
+.sosial-link i:hover {
     transform: scale(1.1);
 }
 
@@ -74,6 +74,7 @@ footer {
     justify-content: space-between;
     gap: 50px;
     background: black;
+    align-items: stretch;
 }
 
 .footer-colums h3 {
@@ -136,17 +137,25 @@ footer {
 .year{
     background: black;
 }
-
-.Wa img{
-    width: 40px;
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
 .Wa{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-right: 25px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* padding-right: 25px; */
+    /* padding-top: 50px; */
+    /* flex-direction: column; */
+}
+.Wa i{
+    padding-right: 2px;
+}
+.wa-contact{
+    padding-top: 20px;
+}
+.a{
+    text-decoration: underline;
+}
+.des{
+    width: 200px;
+}
+.logo-footer{
+    max-height: fit-content;
 }

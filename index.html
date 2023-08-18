@@ -49,7 +49,8 @@
     <!--navbar end-->
     <!-- home start -->
     <section id="home" class="home" style="background: url('./assets/bg.jpg'); background-size: cover; background-position: center; z-index: 1;">
-      <div class="home-wrapper px-4">
+      <div class="home-wrapper px-4" data-aos="fade-up"
+      data-aos-anchor-placement="top-center" data-aos-duration="1000">
         <p class="h3 text-center fs-2 p-1" style="margin: 0;">Pogramming, engineering, & Networking Adhi Guna</p>
         <p class="display-1 pb-4 text-center fw-semibold" style=" margin: 0">PENA</p>
         <div class="d-flex justify-content-center">
@@ -62,7 +63,7 @@
     </section>
     <!-- home end -->
     <!-- about start -->
-    <section id="about" class="about">
+    <section  id="about" class="about" data-aos="fade-up" data-aos-duration="1000">
       <div class="about-content" style="gap: 30px">
         <div class="image-about">
           <img src="assets/undraw_static_website_re_x70h.svg" class="img-fluid bg-transparent" alt="image" />
@@ -210,33 +211,40 @@
         </section>
         <section class="footer-colums">
           <section>
-            <div class="d-flex justify-content-start">
-              <a href="#" title="logo">
-                <img src="assets/kedai.png" class="footer-logo" alt="Laplace" />
-              </a>
+            <div class="des">
+              <div class="logo-footer">
+                <a href="#" title="logo">
+                  <img src="assets/kedai.png" class="footer-logo" alt="Laplace" />
+                </a>
+              </div>
+              <p class="text-light">tetap semangat dan jangan lupa bernafas heheheheheheh</p>
             </div>
-            <p class="text-light">tetap semangat dan jangan lupa bernafas</p>
           </section>
           <section>
             <ul>
               <h3>Sosial Media</h3>
               <span class="sosial-link">
                 <a href="#" title="instagram">
-                  <img src="assets/instagram.svg" alt="instagram" />
+                  <i class="fa-brands fa-instagram fa-xl"></i>
                 </a>
                 <a href="#" title="facebook">
-                  <img src="assets/facebook.svg" alt="facebook" />
+                  <i class="fa-brands fa-facebook fa-xl"></i>
                 </a>
                 <a href="#" title="youtube">
-                  <img src="assets/youtube-168-svgrepo-com.svg" alt="youtube" />
+                  <i class="fa-brands fa-youtube fa-xl"></i>
                 </a>
                 <a href="#" title="twitter">
-                  <img src="assets/twitter-svgrepo-com(1).svg" alt="twitter" />
+                  <i class="fa-brands fa-twitter fa-xl"></i>
                 </a>
               </span>
               <span class="Wa">
-                <img src="assets/whatsapp-svgrepo-com.svg" alt="">
-                <a href="">Contact me</a>
+                <div class="wa-contact">
+                  <p class="text-light fw-semibold fs-5">Contact</p>
+                </div>
+                <a href="#">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="" style="text-decoration: underline;">Click</a>
               </span>
           </section>
           <section>
@@ -318,6 +326,9 @@
       }
       
       limitText("card-text", 75);
+    </script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
