@@ -12,6 +12,9 @@
     align-items: center;
     padding: 50px 0px 50px 0px;
 }
+.img-visi{
+  max-width: 600px;
+}
 @media (max-width: 600px) {
   .img-visi {
     display: none;
