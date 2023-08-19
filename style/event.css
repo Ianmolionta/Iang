@@ -26,10 +26,18 @@ swiper-slide img {
   height: 100%;
   object-fit: cover;
 }
+/* @media (max-width: 1920px){
+  swiper-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50px;
+  }
+} */
 @media (max-width: 600px){
   swiper-slide{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 300px;
     margin-left: 10px;
-  }
+    }
 }

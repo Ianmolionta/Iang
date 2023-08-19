@@ -1,13 +1,19 @@
 .home {
   margin: 0;
   padding: 0;
-  /* position: relative; */
+  /* position: fixed;
+  top: 50%; */
   background: #0e0e0e;
   color: white;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-mask-image: linear-gradient(rgba(0,0,0,1)80%, rgba(0,0,0,0));
+}
+ .home .home-des{
+  /* position: relative; */
+  /* left: 200px; */
 }
 .button-about {
   text-decoration: none;

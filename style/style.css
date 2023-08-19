@@ -87,7 +87,7 @@ a {
     color: #ffffff;
     gap: 32px;
     width: max-content;
-    transition: all 0.2s;
+    transition: all 0.9s;
     background-color: transparent;
     padding: 8px 16px;
 }
@@ -106,7 +106,7 @@ a {
     left: 0;
     background: linear-gradient(90deg, var(--background), var(--primary), var(--background));
     transform-origin: bottom center;
-    transition: transform 1s ease-out;
+    transition: transform 0.9s ease-out;
 }
 
 .menu-nav>a:hover::after {
@@ -143,7 +143,7 @@ a {
         background-color: var(--background);
         gap: 8px;
         flex-direction: column;
-        animation: fade 0.3s ease-in 1 forwards;
+        animation: fade 0.9s ease-in 1 forwards;
         opacity: 0.9;
         border-radius: 0px 0px 10px 10px;
     }

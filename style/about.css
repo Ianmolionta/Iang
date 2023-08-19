@@ -7,8 +7,8 @@
     padding: 100px 0px 100px 0px;
 }
 .image-about{
-    max-width: 800px;
-    width: 100%;
+    max-width: 600px;
+    /* width: 100%; */
     /* height: 100%; */
     background: transparent;
 }
