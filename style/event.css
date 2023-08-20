@@ -39,5 +39,12 @@ swiper-slide img {
     /* margin: 0 auto; */
     width: 300px;
     margin-left: 10px;
-    }
+  }
+}
+@media (min-width : 2100px){
+  swiper-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

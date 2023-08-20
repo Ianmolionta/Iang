@@ -124,6 +124,13 @@ footer {
         justify-content: center;
         align-items: center;
     }
+    section{
+        text-align: center;
+    }
+    section .sosial-link{
+        display: flex;
+        justify-content: center;
+    }
 }
 .footer-botom-links>a {
     color: white;
@@ -160,8 +167,9 @@ footer {
 }
 .des{
     width: 200px;
+    /* margin-bottom: 20px; */
 }
 .footer-logo{
-    height: 100px;
+    height: 90px;
     width: 80px;
 }
