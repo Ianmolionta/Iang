@@ -170,6 +170,7 @@ footer {
     /* margin-bottom: 20px; */
 }
 .footer-logo{
-    height: 90px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
 }
