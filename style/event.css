@@ -41,10 +41,15 @@ swiper-slide img {
     margin-left: 10px;
   }
 }
-@media (min-width : 2100px){
+@media (min-width : 1900px){
   swiper-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    left: 3%;
+    width: fit-content;
+  }
+}
+@media (min-width : 2000px){
+  swiper-container{
+    left: 8%;
+    width: fit-content;
   }
 }
