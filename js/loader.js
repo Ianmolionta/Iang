@@ -1,4 +1,4 @@
-let id = document.getElementById("loader")
+let id = document.getElementById("loaderPage")
 
 window.onload = () =>{
     setTimeout(function(){
